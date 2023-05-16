@@ -1,0 +1,7 @@
+.container{
+    width:500px;
+    height: 250px;
+    /* background-color: aqua; */
+    box-shadow: 10px 10px 5px black;
+    background-image: linear-gradient(yellow, pink,green);
+}

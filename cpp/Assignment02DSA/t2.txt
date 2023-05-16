@@ -1,0 +1,12 @@
+Question1
+Infix expression: A+((B+C)*D*E^F/G)-H
+   Postfix expression: ABC+D*EF^G/*+H-
+   Prefix expression: -+A/*^EFG*+BCDH
+
+Question 2
+Infix expression: A*B*C/D^E+F-(G^H-I)
+Postfix expression: ABC*DE^/*F+GH^I--
+Prefix expression: -+/*A*BC^DE
+
+// Umair Shuja
+//  L1F21BSSE0396

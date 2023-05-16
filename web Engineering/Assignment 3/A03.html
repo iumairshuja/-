@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Task 3</title>
+    <style>
+        .HOME {
+            color: grey;
+            font-size: small;
+            text-align: center;
+            font-weight: lighter;
+        }
+
+        .BODY {
+            width: auto;
+            overflow: hidden;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .Product {
+            width: 390px;
+            text-align: center;
+        }
+
+        .Product1 {
+            text-align: left;
+            
+            padding: 15px;
+        }
+
+        .Price {
+            width: 200px;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .Quantity {
+            width: 400px;
+            text-align: center;
+        }
+
+        .X {
+            text-align: right;
+            width: 50px;
+            
+            color: grey;
+        }
+
+        .Flex {
+            display: flex;
+            color: rgb(53, 50, 50);
+        }
+
+        .Image {
+            float: left;
+            margin-left: 50px;
+            width: 60px;
+        }
+
+        .input {
+            width: 30px;
+        }
+
+        .line {
+            height: 30px;
+            color: rgb(176, 171, 171);
+            text-align: center;
+        }
+
+        .coupon {
+
+            color: #00989D;
+            background-color: rgb(234, 238, 241);
+            border-color: #00989D;
+            border-radius: 6px;
+            margin-left: 3px;
+        }
+
+        .align {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="background-color: #FFFFFF; width: 1250px;">
+    <div class="BODY">
+        <div class="HOME">HOME/CART</div>
+        <div class="align">
+            <h1>Cart</h1>
+        </div>
+        <div style="display: flex;" class="align">
+            <div style="width: 450px">Product</div>
+            <div style="width: 200px">Price</div>
+            <div style="width: 450px">Quantity</div>
+            <div>Subtotal</div>
+        </div>
+        <div class="line">
+            ______________________________________________________________________________________________________________________________________
+        </div>
+        <div class="Flex">
+            <div class="X">x</div>
+            <div class="Product">
+                <div class="Image"><img src="1.png" height="50px"></div>
+                <div class="Product1">Light blue denim shirt</div>
+            </div>
+            <div class="Price">£32.49</div>
+            <div class="Quantity">
+                <form><input type="number" value="3" min="0" class="input"></form>
+            </div>
+            <div>£97.47</div>
+        </div>
+        <div class="line">
+            ______________________________________________________________________________________________________________________________________
+        </div>
+        <div class="Flex">
+            <div class="X">x</div>
+            <div class="Product">
+                <div class="Image"><img src="2.png" height="50px"></div>
+                <div class="Product1">Polis Short dress</div>
+            </div>
+            <div class="Price">£18.00</div>
+            <div class="Quantity">
+                <form><input type="number" value="1" min="0" class="input"></form>
+            </div>
+            <div>£18.00</div>
+        </div>
+        <div class="line">
+            ______________________________________________________________________________________________________________________________________
+        </div>
+        <div class="Flex">
+            <div class="X">x</div>
+            <div class="Product">
+                <div class="Image"><img src="3.png" height="50px"></div>
+                <div class="Product1">Denim Jacket</div>
+            </div>
+            <div class="Price">£34.99</div>
+            <div class="Quantity">
+                <form><input type="number" value="1" min="0" class="input"></form>
+            </div>
+            <div>£34.99</div>
+        </div>
+        <div class="line">
+            ______________________________________________________________________________________________________________________________________
+        </div>
+        <div style="height: 25px;margin-left: 35px;float:left; ">COUPON:</div>
+        <div style="text-align: right; height:30px;"><button
+                    style="border: none; color: #00989D; margin-right: 30px;font-weight:bold;background-color: #FFFFFF">↻ Update Cart</button>
+        </div>
+        <div class="Flex">
+            <div style="text-align: left; margin-left: 35px;"><input type="text" placeholder="COUPON HERE"></div>
+            <div><button class="coupon" type="submit">Apply Coupon</button></div>
+        </div>
+        <div style="background-color: #F5F5F5; text-align: right; width:300px;margin-left: 950px;position: absolute;">
+            <div style="text-align: right; float: right;margin: 35px;;">
+                <div style="text-align: right; color:gray">£150.46</div>
+                <div style="color: #00989D">£150.46</div>
+            </div>
+            <div style="text-align: right;margin: 30px; height: 70px">
+                <div style="text-align: right;">Subtotal</div>
+                <div style="color: #00989D">Total</div>
+            </div>
+            <div style="text-align: right; margin-bottom: 10px;"><button type="button"
+                        style="background-color:#00989D; color: white;font-size: large; margin-right: 30px; height: 40px;"
+                        class="coupon">Proceed to Checkout</div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

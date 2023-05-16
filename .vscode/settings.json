@@ -1,0 +1,9 @@
+{
+    "terminal.explorerKind": "external",
+    "files.associations": {
+        "iostream": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "stack": "cpp"
+    }
+}
